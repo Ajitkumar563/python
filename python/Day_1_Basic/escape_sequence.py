@@ -17,3 +17,6 @@ print("A\\nirudh")
 # A\\nirudh
 print("A\\\\nirudh")
 
+# Py/\th\\//on
+print("Py/\\th\\\\//on")
+
