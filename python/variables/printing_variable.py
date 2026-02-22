@@ -12,3 +12,4 @@ gender = "male"
 print(f"My name is {name}")
 print(f"My age is {age}")
 print(f"My gender is {gender}")
+print(f"my name is {name} and age is {age} and gender is {gender}")
