@@ -9,3 +9,8 @@ def celsius_to_farenheit(Celsius):
  
 a=celsius_to_farenheit(45)
 print(a) 
+
+
+# Create a function named simple_calculator that takes three
+# parameters: two numbers and an operation (addition or subtraction represented by '+' or '-'),
+# and prints the result of the operation
