@@ -32,4 +32,33 @@ def simple_calculator(num1, num2, operation):
 # function call
 simple_calculator(3,9,'+')
 simple_calculator(9,4, '-')
+
+# Write a function named check_number that takes a number 
+# and prints whether it is positive, negative, or zero.
         
+def check_number(num):
+    if num>0:
+        print("positive")
+        
+    elif num<0:
+        print("negative")
+        
+    else:
+        print("zero")            
+        
+check_number(-3)    
+
+
+# Write a function named is_odd_even that determines if a number is odd or even 
+# without using the modulo operator (%). Hint: Use division or subtraction.    
+
+def is_odd_even(num):
+    if num == (num//2)*2 :
+        print("even")
+        
+    else:
+        print("odd")    
+        
+is_odd_even(5)   
+is_odd_even(4)     
+    
