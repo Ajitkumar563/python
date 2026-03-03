@@ -14,3 +14,22 @@ print(a)
 # Create a function named simple_calculator that takes three
 # parameters: two numbers and an operation (addition or subtraction represented by '+' or '-'),
 # and prints the result of the operation
+
+def simple_calculator(num1, num2, operation):
+    
+    if operation == '+':
+        result = num1 + num2
+        
+    elif operation == '-':
+        result = num1 - num2
+        
+    else:
+        print("Invalid operation")
+        return
+    
+    print("Result:", result)
+
+
+# Function call
+simple_calculator(6, 8, '+')
+simple_calculator(6, 8, '-')
