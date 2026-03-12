@@ -24,18 +24,47 @@
 #  Ask 10 numbers from the user and put them into the list. Now remove
 #   all the even numbers from that list.
 
-number = []
+# number = []
 
-# Ask 10 number 
-for i in range(10):
-    n = int(input("Enter the number = "))
-    number.append(n)
+# # Ask 10 number 
+# for i in range(10):
+#     n = int(input("Enter the number = "))
+#     number.append(n)
     
-# Remove the number 
-for num in number:
-    if num %2 == 0:
-        number.remove(num)    
+# # Remove the number 
+# for num in number:
+#     if num %2 == 0:
+#         number.remove(num)    
         
-print(number)        
+# print(number)     
 
-    
+# lst = [34, 11, 91, 59, 33, 22]
+# removeNth(lst,3)   
+
+# def remove(lst, n):
+#     if n < len(lst):
+#         lst.pop(n)
+#         print(lst)
+#     else:
+#          print("Index does not exit")
+         
+# lst = [34, 11, 91, 59, 33, 22]
+# remove(lst,3)
+
+# lst = [34, 11, 91, 59, 33, 22]
+# remove(lst,67)  
+
+# more safe version 
+def removeNth(lst, n):
+    try:
+        lst.pop(n)
+        print(lst) 
+    except IndexError:
+        print("Index does not exist")
+        
+lst = [34, 11, 91, 59, 33, 22]
+removeNth(lst,3)
+
+lst = [34, 11, 91, 59, 33, 22]
+removeNth(lst,67)        
+                           
