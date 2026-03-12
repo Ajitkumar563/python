@@ -28,7 +28,7 @@ number = []
 
 # Ask 10 number 
 for i in range(10):
-    n = int(input("Enter the number ="))
+    n = int(input("Enter the number = "))
     number.append(n)
     
 # Remove the number 
