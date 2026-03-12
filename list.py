@@ -55,16 +55,16 @@
 # remove(lst,67)  
 
 # more safe version 
-def removeNth(lst, n):
-    try:
-        lst.pop(n)
-        print(lst) 
-    except IndexError:
-        print("Index does not exist")
+# def removeNth(lst, n):
+#     try:
+#         lst.pop(n)
+#         print(lst) 
+#     except IndexError:
+#         print("Index does not exist")
         
-lst = [34, 11, 91, 59, 33, 22]
-removeNth(lst,3)
+# lst = [34, 11, 91, 59, 33, 22]
+# removeNth(lst,3)
 
-lst = [34, 11, 91, 59, 33, 22]
-removeNth(lst,67)        
+# lst = [34, 11, 91, 59, 33, 22]
+# removeNth(lst,67)        
                            
