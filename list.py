@@ -24,3 +24,18 @@
 #  Ask 10 numbers from the user and put them into the list. Now remove
 #   all the even numbers from that list.
 
+number = []
+
+# Ask 10 number 
+for i in range(10):
+    n = int(input("Enter the number ="))
+    number.append(n)
+    
+# Remove the number 
+for num in number:
+    if num %2 == 0:
+        number.remove(num)    
+        
+print(number)        
+
+    
