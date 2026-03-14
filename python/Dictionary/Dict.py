@@ -77,5 +77,14 @@
 # {'banana': 8, 'orange': 10, 'apple': 9}
 # Expected Output:
 # {'apple': 9, 'banana': 8, 'cherry': 7, 'orange': 10}
+
+# Do dictionaries merge karo, second dictionary overwrite kare
+
+def merge_dict(d1,d2):
+    return {**d1 ,**d2}
+
+dict1 = {'apple': 3, 'banana' : 5,'cherry' : 7}
+dict2 = 
+
 # Q6. Write a function that updates the values of a dictionary by multiplying them by a given factor only if the value is an integer.
 # Initial Dictionary:Factor: 2 (Ask input from user)Output Dictionary:
