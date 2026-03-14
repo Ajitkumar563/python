@@ -141,4 +141,20 @@
     "name" : "Alice" , "age" : 30, "city" : "FBD"  , "is_student" : False , "birthday" : "5 may"
 }
 
-           
+def string_values_only(d):
+    new_dict = {}
+    
+    for key, value in d.items():
+        if type(value) == str:
+            new_dict(key) == value
+
+data = {
+    "name" : "Alice" ,
+    "age" : 30, 
+    "city" : "FBD",
+    "is_student" : False ,
+    "birthday" : "5 may"
+} 
+
+print(data)
+          
