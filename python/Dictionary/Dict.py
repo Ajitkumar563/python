@@ -137,9 +137,9 @@
 # Q8. Given a dictionary, write a function that returns a new dictionary containing
 # only the keys that have values of type str.
 
-{
-    "name" : "Alice" , "age" : 30, "city" : "FBD"  , "is_student" : False , "birthday" : "5 may"
-}
+# {
+#     "name" : "Alice" , "age" : 30, "city" : "FBD"  , "is_student" : False , "birthday" : "5 may"
+# }
 
 def string_values_only(d):
     new_dict = {}
