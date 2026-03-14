@@ -102,5 +102,23 @@
 # print(result)
 
 
-# Q6. Write a function that updates the values of a dictionary by multiplying them by a given factor only if the value is an integer.
+# Q6. Write a function that updates the values of a dictionary by multiplying them by a
+# given factor only if the value is an integer.
 # Initial Dictionary:Factor: 2 (Ask input from user)Output Dictionary:
+
+def multiply_integer(d, factor):
+    new_dict ={}
+    
+    for key, value in d.items():
+        if type(value)== int:
+            new_dict[key] = value*factor
+        else:
+            new_dict[key] = value
+            
+    return new_dict
+
+data = {"a" :3, "b" : "hello", "c": "ajit", "d" : 10}
+factor = int(input("Enter the number"))
+result = multiply_integer(data ,factor)
+print(data)
+           
