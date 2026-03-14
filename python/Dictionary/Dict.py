@@ -141,22 +141,22 @@
 #     "name" : "Alice" , "age" : 30, "city" : "FBD"  , "is_student" : False , "birthday" : "5 may"
 # }
 
-def string_values_only(d):
-    new_dict = {}
+# def string_values_only(d):
+#     new_dict = {}
     
-    for key, value in d.items():
-        if type(value) == str:
-            new_dict[key] = value
+#     for key, value in d.items():
+#         if type(value) == str:
+#             new_dict[key] = value
             
-    return new_dict
-data = {
-    "name" : "Alice" ,
-    "age" : 30, 
-    "city" : "FBD",
-    "is_student" : False ,
-    "birthday" : "5 may"
-} 
+#     return new_dict
+# data = {
+#     "name" : "Alice" ,
+#     "age" : 30, 
+#     "city" : "FBD",
+#     "is_student" : False ,
+#     "birthday" : "5 may"
+# } 
 
-result = string_values_only(data)
-print(result)
+# result = string_values_only(data)
+# print(result)
           
