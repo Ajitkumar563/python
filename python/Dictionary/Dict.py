@@ -46,3 +46,11 @@
         
            
     
+# Q3. Create two list. One would be subject name and other would be marks. 
+# Join both the list to make it as a dictionary. (The length of two lists should be the same).
+
+Subjects = ["history", "math", "Science", "English"]
+marks = [23,45,56,22]
+result = dict(zip(Subjects,marks))
+
+print(result)
