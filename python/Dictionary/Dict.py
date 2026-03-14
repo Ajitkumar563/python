@@ -147,7 +147,8 @@ def string_values_only(d):
     for key, value in d.items():
         if type(value) == str:
             new_dict(key) == value
-
+            
+    return new_dict
 data = {
     "name" : "Alice" ,
     "age" : 30, 
