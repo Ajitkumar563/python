@@ -162,10 +162,19 @@
 
 
 
-Q9. Ask a string from user. Store the frequency of each character in the dictionary. Then print the character with the maximum frequency.
-Input:
-Please enter a string: hello world
-Output:
-The character with the maximum frequency is 'l'.
-Q10. Write a Python program to combine two dictionary by adding values for common keys.d1 = {'a': 100, 'b': 200, 'c':300}d2 = {'a': 300, 'b': 200, 'd':400}Sample output: {'a': 400, 'b': 400, 'd': 400, 'c': 300}
-Q11. Given a dictionary with key-value pairs, remove all the keys with values greater than K, including mixed values.Input : test_dict = {‘Gfg’ : 3, ‘is’ : 7, ‘best’ : 10, ‘for’ : 6, ‘xyzx’ : ‘CS’}, K = 7 Output : {‘Gfg’ : 3, ‘for’ : 6, ‘xyzx’ : ‘CS’} Explanation : All values greater than K are removed. Mixed value is retained. Input : test_dict = {‘Gfg’ : 3, ‘is’ : 7, ‘best’ : 10, ‘for’ : 6, ‘qqqq’ : ‘CS’}, K = 1 Output : {‘qqqq’ : ‘CS’} Explanation : Only Mixed value is retained.          
+# Q9. Ask a string from user. Store the frequency of each character in the dictionary.
+# Then print the character with the maximum frequency.
+# Input:
+# Please enter a string: hello world
+# Output:
+# The character with the maximum frequency is 'l'.
+
+# Q10. Write a Python program to combine two dictionary by adding values
+# for common keys.d1 = {'a': 100, 'b': 200, 'c':300}d2 = {'a': 300, 'b': 200, 'd':400}
+# Sample output: {'a': 400, 'b': 400, 'd': 400, 'c': 300}
+# Q11. Given a dictionary with key-value pairs, remove all the keys with values
+# greater than K, including mixed values.Input : test_dict = {‘Gfg’ : 3, ‘is’ : 7, ‘best’ : 10, ‘for’ : 6, ‘xyzx’ : ‘CS’}, K = 7 
+# Output : {‘Gfg’ : 3, ‘for’ : 6, ‘xyzx’ : ‘CS’} 
+# Explanation : All values greater than K are removed. 
+# Mixed value is retained. Input : test_dict = {‘Gfg’ : 3, ‘is’ : 7, ‘best’ : 10, ‘for’ : 6, ‘qqqq’ : ‘CS’}, K = 1 
+# Output : {‘qqqq’ : ‘CS’} Explanation : Only Mixed value is retained.          
