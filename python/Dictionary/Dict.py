@@ -64,7 +64,7 @@ def check_key(d, key):
 data = {"apple" : 10, "banana" : 20, "mango" : 30 }
 
 print(check_key(data, "banana"))
-print(check_key(data, "apple"))
+print(check_key(data, "grapes"))
 
 
 
