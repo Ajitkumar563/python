@@ -90,16 +90,16 @@
 # print(result)
 
 
-def merge_dict(d1, d2):
-    new_dict = d1.copy()
-    new_dict.update(d2)
-    return new_dict
+# def merge_dict(d1, d2):
+#     new_dict = d1.copy()
+#     new_dict.update(d2)
+#     return new_dict
 
-dict1 = {'apple': 3, 'banana' : 5,'cherry' : 7}
-dict2 = {'banana': 8, 'orange' : 10, 'apple' :22}
+# dict1 = {'apple': 3, 'banana' : 5,'cherry' : 7}
+# dict2 = {'banana': 8, 'orange' : 10, 'apple' :22}
 
-result = merge_dict(dict1 ,dict2)
-print(result)
+# result = merge_dict(dict1 ,dict2)
+# print(result)
 
 
 # Q6. Write a function that updates the values of a dictionary by multiplying them by a given factor only if the value is an integer.
