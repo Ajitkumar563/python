@@ -120,5 +120,5 @@ def multiply_integer(d, factor):
 data = {"a" :3, "b" : "hello", "c": "ajit", "d" : 10}
 factor = int(input("Enter the number"))
 result = multiply_integer(data ,factor)
-print(data)
+print(result)
            
