@@ -121,4 +121,9 @@
 # factor = int(input("Enter the number"))
 # result = multiply_integer(data ,factor)
 # print(result)
+
+
+Q7. Write a Python script to print a dictionary where the keys are numbers between 1 and 15 (both included) and the values are squares of the keys.
+Q8. Given a dictionary, write a function that returns a new dictionary containing only the keys that have values of type str.
+Input:Output:
            
