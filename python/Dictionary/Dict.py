@@ -29,20 +29,20 @@
 # Expected Output: 4 (Frequency: 3)
 
 
-n = [4, 5, 6, 5, 4, 4, 7]
-freq = {}
+# n = [4, 5, 6, 5, 4, 4, 7]
+# freq = {}
 
-for i in n:
-    if i in freq:
-        freq[i] += 1
+# for i in n:
+#     if i in freq:
+#         freq[i] += 1
         
-    else:
-        freq[i] = 1
-max_freq = max(freq, key=freq.get)
+#     else:
+#         freq[i] = 1
+# max_freq = max(freq, key=freq.get)
 
-print("freq_dict :",freq)
-print("maximum frequency integer : ",max_freq)
-print("frequency",freq[max_freq])        
+# print("freq_dict :",freq)
+# print("maximum frequency integer : ",max_freq)
+# print("frequency",freq[max_freq])        
         
            
     
