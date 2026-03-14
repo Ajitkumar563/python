@@ -58,13 +58,13 @@
 # Q4. Write a function that takes a dictionary and a key,
 # and returns True if the key is found in the dictionary, otherwise False.
 
-def check_key(d, key):
-    return key in d
+# def check_key(d, key):
+#     return key in d
 
-data = {"apple" : 10, "banana" : 20, "mango" : 30 }
+# data = {"apple" : 10, "banana" : 20, "mango" : 30 }
 
-print(check_key(data, "banana"))
-print(check_key(data, "grapes"))
+# print(check_key(data, "banana"))
+# print(check_key(data, "grapes"))
 
 
 
