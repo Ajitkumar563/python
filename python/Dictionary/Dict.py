@@ -54,3 +54,21 @@
 # result = dict(zip(Subjects,marks))
 
 # print(result)
+
+# Q4. Write a function that takes a dictionary and a key,
+# and returns True if the key is found in the dictionary, otherwise False.
+
+
+
+
+
+
+# Q5. Given two dictionaries, write a function to merge them into a new dictionary. If there is any overlap of keys, the value from the second dictionary should overwrite the one from the first dictionary.
+# Dictionary 1:
+# {'apple': 3, 'banana': 5, 'cherry': 7}
+# Dictionary 2:
+# {'banana': 8, 'orange': 10, 'apple': 9}
+# Expected Output:
+# {'apple': 9, 'banana': 8, 'cherry': 7, 'orange': 10}
+# Q6. Write a function that updates the values of a dictionary by multiplying them by a given factor only if the value is an integer.
+# Initial Dictionary:Factor: 2 (Ask input from user)Output Dictionary:
