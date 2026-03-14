@@ -157,5 +157,6 @@ data = {
     "birthday" : "5 may"
 } 
 
+result = string_values_only(data)
 print(data)
           
