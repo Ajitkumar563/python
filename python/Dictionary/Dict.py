@@ -158,5 +158,5 @@ data = {
 } 
 
 result = string_values_only(data)
-print(data)
+print(result)
           
