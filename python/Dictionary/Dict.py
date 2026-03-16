@@ -214,7 +214,7 @@
 # ‘for’ : 6, ‘qqqq’ : ‘CS’}, K = 1 
 # Output : {‘qqqq’ : ‘CS’} Explanation : Only Mixed value is retained.          
 
-test_dict = {'Gfg': 3, 'is' : 7, 'best' : 10, 'for' : 6, 'xyzx' : 'CS'}, 
+test_dict = {'Gfg': 3, 'is' : 7, 'best' : 10, 'for' : 6, 'xyzx' : 'CS'}
 K = 7 
 result = {}
 
