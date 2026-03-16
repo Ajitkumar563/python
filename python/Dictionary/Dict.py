@@ -222,8 +222,8 @@ for key, value in test_dict.items():
     if type(value) == int:
         if value <= K:
             result[key] = value
-        else:
-            result[key] = value
+    else:
+        result[key] = value
             
 print(result)                
 
