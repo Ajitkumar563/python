@@ -169,15 +169,47 @@
 # Output:
 # The character with the maximum frequency is 'l'.
 
+text = input("Please enter a string: ")
+
+freq = {}
+
+for ch in text:
+    if ch in freq:
+        freq[ch] += 1
+    else:
+        freq[ch] = 1
+        
+max_char = max(freq, key=freq.get)
+print(freq)
+print(max_char)
+
 
 
 
 # Q10. Write a Python program to combine two dictionary by adding values
 # for common keys.d1 = {'a': 100, 'b': 200, 'c':300}d2 = {'a': 300, 'b': 200, 'd':400}
 # Sample output: {'a': 400, 'b': 400, 'd': 400, 'c': 300}
+
+d1 = {'a': 100, 'b': 200, 'c':300}
+d2 = {'a': 300, 'b': 200, 'd':400}
+
+for key, value in d2.items():
+    if key in d1:
+        d1[key] += value
+        
+    else:
+        d1[key] = value    
+        
+print(d1)        
+
+
+
+
 # Q11. Given a dictionary with key-value pairs, remove all the keys with values
-# greater than K, including mixed values.Input : test_dict = {‘Gfg’ : 3, ‘is’ : 7, ‘best’ : 10, ‘for’ : 6, ‘xyzx’ : ‘CS’}, K = 7 
+# greater than K, including mixed values.Input : test_dict = {‘Gfg’ : 3, ‘is’ : 7,
+# ‘best’ : 10, ‘for’ : 6, ‘xyzx’ : ‘CS’}, K = 7 
 # Output : {‘Gfg’ : 3, ‘for’ : 6, ‘xyzx’ : ‘CS’} 
 # Explanation : All values greater than K are removed. 
-# Mixed value is retained. Input : test_dict = {‘Gfg’ : 3, ‘is’ : 7, ‘best’ : 10, ‘for’ : 6, ‘qqqq’ : ‘CS’}, K = 1 
+# Mixed value is retained. Input : test_dict = {‘Gfg’ : 3, ‘is’ : 7, ‘best’ : 10,
+# ‘for’ : 6, ‘qqqq’ : ‘CS’}, K = 1 
 # Output : {‘qqqq’ : ‘CS’} Explanation : Only Mixed value is retained.          
