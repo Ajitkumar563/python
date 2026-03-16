@@ -169,19 +169,19 @@
 # Output:
 # The character with the maximum frequency is 'l'.
 
-text = input("Please enter a string: ")
+# text = input("Please enter a string: ")
 
-freq = {}
+# freq = {}
 
-for ch in text:
-    if ch in freq:
-        freq[ch] += 1
-    else:
-        freq[ch] = 1
+# for ch in text:
+#     if ch in freq:
+#         freq[ch] += 1
+#     else:
+#         freq[ch] = 1
         
-max_char = max(freq, key=freq.get)
-print(freq)
-print("character with maximum frequency",max_char)
+# max_char = max(freq, key=freq.get)
+# print(freq)
+# print("character with maximum frequency",max_char)
 
 
 
