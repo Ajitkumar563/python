@@ -181,7 +181,7 @@ for ch in text:
         
 max_char = max(freq, key=freq.get)
 print(freq)
-print(max_char)
+print("character with maximum frequency",max_char)
 
 
 
@@ -190,17 +190,17 @@ print(max_char)
 # for common keys.d1 = {'a': 100, 'b': 200, 'c':300}d2 = {'a': 300, 'b': 200, 'd':400}
 # Sample output: {'a': 400, 'b': 400, 'd': 400, 'c': 300}
 
-d1 = {'a': 100, 'b': 200, 'c':300}
-d2 = {'a': 300, 'b': 200, 'd':400}
+# d1 = {'a': 100, 'b': 200, 'c':300}
+# d2 = {'a': 300, 'b': 200, 'd':400}
 
-for key, value in d2.items():
-    if key in d1:
-        d1[key] += value
+# for key, value in d2.items():
+#     if key in d1:
+#         d1[key] += value
         
-    else:
-        d1[key] = value    
+#     else:
+#         d1[key] = value    
         
-print(d1)        
+# print(d1)        
 
 
 
