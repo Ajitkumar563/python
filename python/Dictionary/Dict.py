@@ -213,3 +213,17 @@
 # Mixed value is retained. Input : test_dict = {‘Gfg’ : 3, ‘is’ : 7, ‘best’ : 10,
 # ‘for’ : 6, ‘qqqq’ : ‘CS’}, K = 1 
 # Output : {‘qqqq’ : ‘CS’} Explanation : Only Mixed value is retained.          
+
+test_dict = {'Gfg': 3, 'is' : 7, 'best' : 10, 'for' : 6, 'xyzx' : 'CS'}, 
+K = 7 
+result = {}
+
+for key, value in test_dict.items():
+    if type(value) == int:
+        if value <= k:
+            result[key] = value
+        else:
+            result[key] = value
+            
+print(result)                
+
