@@ -13,3 +13,6 @@ details ={
 #     for mark in marks:
 #         total = total + mark
 #     print(f"Name = {name} ,Total ={total}")    
+
+
+print(details["Ram"][-1])
