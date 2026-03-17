@@ -15,5 +15,5 @@ details ={
 #     print(f"Name = {name} ,Total ={total}")    
 
 
-print(details["Ganesh"][-1])
-print(details["Ganesh"][1])
+print(details["Ram"][-1])
+print(details["ram"][1])
