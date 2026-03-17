@@ -16,3 +16,4 @@ details ={
 
 
 print(details["Ganesh"][-1])
+print(details["Ganesh"][1])
