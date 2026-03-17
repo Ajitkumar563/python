@@ -7,3 +7,9 @@ details ={
 }
 # for name, marks in details.items():
 #     print(f"Name = {name} | Marks ={sum(marks)}")
+
+for name, marks in details.items():
+    total =0
+    for mark in marks:
+        total = total + mark
+    print(f"Name = {name} ,Total ={total}")    
