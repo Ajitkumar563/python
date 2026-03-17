@@ -5,3 +5,5 @@ details ={
     "Ram": [38,45,67,78,50],
     "Ajeet": [30,40,67,78,57],
 }
+for name, marks in details.items():
+    print(f"Name = {name} | Marks ={sum(marks)}")
