@@ -9,7 +9,7 @@ details = {
 # x = dict(sorted(details.items(), key =lambda x : sum(x[1])))
 
 # x = dict(sorted(details.items(), key=lambda x: x[1][-1]))
-x = dict(sorted(details.items(), key = lambda x: max(x(1))))
+x = dict(sorted(details.items(), key = lambda x: max(x[1])))
 
 print(x)
 for name, marks in x.items():
