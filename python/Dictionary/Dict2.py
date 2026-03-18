@@ -35,10 +35,10 @@ Enter marks =
 
 """
 details ={}
-for i in range (0,2):
+for _ in range (0,2):
     name = input("Enter student name = ")
     marks = []
-    for j in range(0, 3):
+    for _ in range(0, 3):
         m = int(input("Enter marks = "))
         marks.append(m)
         
