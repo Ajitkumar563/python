@@ -18,5 +18,5 @@ Anonymus function - one liners
 # x=check_even(7) 
 # print(x)
 
-check_even = lambda num : "yes" if num % 2 == 0 else "N0"
-print(check_even(12))
+# check_even = lambda num : "yes" if num % 2 == 0 else "N0"
+# print(check_even(12))
