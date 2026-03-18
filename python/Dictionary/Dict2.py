@@ -108,4 +108,9 @@ for name, marks in details.items():
         total +=v
     print(f"{name} has scored {total} marks")
     
+# output
+Ajit has scored 218 marks
+Ram has scored 158 marks
+ram has scored 170 marks
+om has scored 77 marks    
      
