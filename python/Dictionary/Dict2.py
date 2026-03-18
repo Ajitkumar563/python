@@ -103,8 +103,9 @@ details = {
     "om" : {"math" : 23, "english" : 54},
 }  
 for name, marks in details.items():
-    print(name)
-    for  v in marks.items():
-        print(f" sum{(v)}")
+    total = 0
+    for  k,v in marks.items():
+        total +=1
+        print(f"{name} has scored {total} marks")
     
      
