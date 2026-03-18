@@ -17,3 +17,19 @@ details ={
 
 # print(details["Ram"][-1])
 # print(details["ram"][1])
+
+"""  
+Enter student name = Ajit
+math =
+hindi =
+English =
+Enter student name = ram
+math =
+hindi =
+English =
+{
+    "Ajit" : [32, 45, 33],
+    "Ram"  : [58, 74, 14],
+}
+
+"""
