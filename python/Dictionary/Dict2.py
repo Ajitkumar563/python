@@ -56,3 +56,6 @@ details = {
 # How to access
 # print(details["om"]["hindi"])
 # print(details["Ram"]["english"])
+
+for name, marks in details.items():
+    print(f"name = {name} | Marks = {marks}")
