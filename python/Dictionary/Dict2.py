@@ -96,21 +96,21 @@
 Ajit has scored 323 marks
 Ram has scored 412 marks
 """
-details = {
-    "Ajit" : {"math" : 23, "english" : 54, "hindi" : 98, "sst" : 43},
-    "Ram" : {"math" : 20, "english" : 50, "hindi" : 88},
-    "ram" : {"math" : 25, "english" : 55, "hindi" : 90},
-    "om" : {"math" : 23, "english" : 54},
-}  
-for name, marks in details.items():
-    total = 0
-    for  k,v in marks.items():
-        total +=v
-    print(f"{name} has scored {total} marks")
+# details = {
+#     "Ajit" : {"math" : 23, "english" : 54, "hindi" : 98, "sst" : 43},
+#     "Ram" : {"math" : 20, "english" : 50, "hindi" : 88},
+#     "ram" : {"math" : 25, "english" : 55, "hindi" : 90},
+#     "om" : {"math" : 23, "english" : 54},
+# }  
+# for name, marks in details.items():
+#     total = 0
+#     for  k,v in marks.items():
+#         total +=v
+#     print(f"{name} has scored {total} marks")
     
-# output
-Ajit has scored 218 marks
-Ram has scored 158 marks
-ram has scored 170 marks
-om has scored 77 marks    
+# # output
+# Ajit has scored 218 marks
+# Ram has scored 158 marks
+# ram has scored 170 marks
+# om has scored 77 marks    
      
