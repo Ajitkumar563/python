@@ -12,5 +12,5 @@ details = {
 x = dict(sorted(details.items(), key = lambda x: max(x[1])))
 
 print(x)
-for name, marks in x.items():
-    print(f"Name = {name}, marks ={sum(marks)}")
+# for name, marks in x.items():
+#     print(f"Name = {name}, marks ={sum(marks)}")
