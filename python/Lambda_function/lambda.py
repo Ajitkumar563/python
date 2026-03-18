@@ -15,4 +15,5 @@ Anonymus function - one liners
 def check_even(num):
     return "yes" if num % 2 == 0 else "no"
 
-check_even(7)
+x=check_even(7) 
+print(x)
