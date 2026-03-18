@@ -43,4 +43,15 @@
 #         marks.append(m)
         
 #     details[name] = marks
-# print(details)    
+# print(details)  
+
+
+details = {
+    "Ajit" : {"math" : 23, "english" : 54, "hindi" : 98},
+    "Ram" : {"math" : 20, "english" : 50, "hindi" : 88},
+    "ram" : {"math" : 25, "english" : 55, "hindi" : 90},
+    "om" : {"math" : 23, "english" : 54, "hindi" : 98},
+}  
+
+# How to access
+print(details["sanjay"]["hindi"])
