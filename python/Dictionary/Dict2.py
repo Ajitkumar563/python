@@ -19,28 +19,28 @@
 # print(details["Ram"][-1])
 # print(details["ram"][1])
 
-"""  
-Enter student name = Ajit
-Enter marks =
-Enter marks =
-Enter marks =
-Enter student name = ram
-Enter marks =
-Enter marks =
-Enter marks =
-{
-    "Ajit" : [32, 45, 33],
-    "ram"  : [58, 74, 14],
-}
+# """  
+# Enter student name = Ajit
+# Enter marks =
+# Enter marks =
+# Enter marks =
+# Enter student name = ram
+# Enter marks =
+# Enter marks =
+# Enter marks =
+# {
+#     "Ajit" : [32, 45, 33],
+#     "ram"  : [58, 74, 14],
+# }
 
-"""
-details ={}
-for _ in range (0,2):
-    name = input("Enter student name = ")
-    marks = []
-    for _ in range(0, 3):
-        m = int(input("Enter marks = "))
-        marks.append(m)
+# """
+# details ={}
+# for _ in range (0,2):
+#     name = input("Enter student name = ")
+#     marks = []
+#     for _ in range(0, 3):
+#         m = int(input("Enter marks = "))
+#         marks.append(m)
         
-    details[name] = marks
-print(details)    
+#     details[name] = marks
+# print(details)    
