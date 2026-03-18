@@ -54,5 +54,5 @@ details = {
 }  
 
 # How to access
-print(details["om"]["hindi"])
-print(details["Ram"]["english"])
+# print(details["om"]["hindi"])
+# print(details["Ram"]["english"])
