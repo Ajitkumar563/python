@@ -6,7 +6,10 @@ details = {
 }
 
 # print(details.items())
-# x = dict(sorted(details.items(), key =lambda x : sum(x[1])))
+x = dict(sorted(details.items(), key =lambda x : sum(x[1])))
 
-x = dict(sorted(details.items(), key=lambda x: x[1][-1]))
+# x = dict(sorted(details.items(), key=lambda x: x[1][-1]))
+
 print(x)
+for name, marks in x.items():
+    print(f"Name = {name}, marks ={sum(marks)}")
