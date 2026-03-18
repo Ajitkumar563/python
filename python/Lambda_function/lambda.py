@@ -12,3 +12,5 @@ Anonymus function - one liners
 # x = addition(5,12)
 # print(x)
 
+def check_even(num):
+    return "yes" if num % 2 == 0 else "no"
