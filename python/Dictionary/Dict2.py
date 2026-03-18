@@ -29,7 +29,17 @@ Enter marks =
 Enter marks =
 {
     "Ajit" : [32, 45, 33],
-    "Ram"  : [58, 74, 14],
+    "ram"  : [58, 74, 14],
 }
 
 """
+details ={}
+for i in range (0,2):
+    name = input("Enter student name = ")
+    marks = []
+    for j in range(0, 3):
+        m = int(input("Enter marks = "))
+        marks.append(m)
+        
+    details[name] = marks
+print(details)    
