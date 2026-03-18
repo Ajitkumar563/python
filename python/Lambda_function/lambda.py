@@ -17,3 +17,7 @@ Anonymus function - one liners
 
 # x=check_even(7) 
 # print(x)
+
+lambda num : "yes" if num % 2 == 0 else "N0"
+num = 8
+print("num")
