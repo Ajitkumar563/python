@@ -72,5 +72,24 @@ for name, marks in details.items():
     print(name)
     for k, v in marks.items():
         print(f"{k} = {v}")
+        
+output
+
+Ajit
+math = 23
+english = 54
+hindi = 98
+sst = 43
+Ram
+math = 20
+english = 50
+hindi = 88
+ram
+math = 25
+english = 55
+hindi = 90
+om
+math = 23
+english = 54        
     
     
