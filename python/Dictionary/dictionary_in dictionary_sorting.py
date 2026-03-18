@@ -7,4 +7,4 @@ details = {
 
 
 print(details.items())
-# x =dict(sorted(details.items(),key=lambda x: x[1]))
+x =dict(sorted(details.items(),key=lambda x: x[1]["english"]))
