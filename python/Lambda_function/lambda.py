@@ -7,7 +7,8 @@ Anonymus function - one liners
 # def addition(a, b):
 #     return a+b
 
-addition = lambda a,b : a+b
+# addition = lambda a,b : a+b
 
-x = addition(5,12)
-print(x)
+# x = addition(5,12)
+# print(x)
+
