@@ -106,6 +106,6 @@ for name, marks in details.items():
     total = 0
     for  k,v in marks.items():
         total +=1
-        print(f"{name} has scored {total} marks")
+    print(f"{name} has scored {total} marks")
     
      
