@@ -20,13 +20,13 @@ details ={
 
 """  
 Enter student name = Ajit
-math =
-hindi =
-English =
+Enter marks =
+Enter marks =
+Enter marks =
 Enter student name = ram
-math =
-hindi =
-English =
+Enter marks =
+Enter marks =
+Enter marks =
 {
     "Ajit" : [32, 45, 33],
     "Ram"  : [58, 74, 14],
