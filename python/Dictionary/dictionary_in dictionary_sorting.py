@@ -6,7 +6,8 @@ details = {
 }
 
 
-print(details.items())
+# print(details.items())
 # x =dict(sorted(details.items(),key=lambda x: x[1]["english"]))
 
 x = dict(sorted(details.items(), key=lambda x: sum(x[1].values())))
+print(x)
