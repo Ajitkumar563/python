@@ -61,35 +61,47 @@
 #     # print(f"name = {name} | Marks = {marks}")
 
 
+# details = {
+#     "Ajit" : {"math" : 23, "english" : 54, "hindi" : 98, "sst" : 43},
+#     "Ram" : {"math" : 20, "english" : 50, "hindi" : 88},
+#     "ram" : {"math" : 25, "english" : 55, "hindi" : 90},
+#     "om" : {"math" : 23, "english" : 54},
+# } 
+
+# for name, marks in details.items():
+#     print(name)
+#     for k, v in marks.items():
+#         print(f"{k} = {v}")
+        
+# output
+
+# Ajit
+# math = 23
+# english = 54
+# hindi = 98
+# sst = 43
+# Ram
+# math = 20
+# english = 50
+# hindi = 88
+# ram
+# math = 25
+# english = 55
+# hindi = 90
+# om
+# math = 23
+# english = 54        
+    
+"""
+Ajit has scored 323 marks
+Ram has scored 412 marks
+"""
 details = {
     "Ajit" : {"math" : 23, "english" : 54, "hindi" : 98, "sst" : 43},
     "Ram" : {"math" : 20, "english" : 50, "hindi" : 88},
     "ram" : {"math" : 25, "english" : 55, "hindi" : 90},
     "om" : {"math" : 23, "english" : 54},
-} 
-
+}  
 for name, marks in details.items():
-    print(name)
-    for k, v in marks.items():
-        print(f"{k} = {v}")
-        
-output
-
-Ajit
-math = 23
-english = 54
-hindi = 98
-sst = 43
-Ram
-math = 20
-english = 50
-hindi = 88
-ram
-math = 25
-english = 55
-hindi = 90
-om
-math = 23
-english = 54        
-    
-    
+    print(f"name = {name} | Marks = {sum{marks}}")
+     
