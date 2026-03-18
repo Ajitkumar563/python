@@ -5,4 +5,6 @@ details = {
     "om" : {"math" : 23, "english" : 54},
 }
 
-print(details.items())
+# print(details.items())
+x = dict(sorted(details.items(), key =lambda x : sum(x[1])))
+print(x)
