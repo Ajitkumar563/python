@@ -12,8 +12,8 @@ Anonymus function - one liners
 # x = addition(5,12)
 # print(x)
 
-def check_even(num):
-    return "yes" if num % 2 == 0 else "no"
+# def check_even(num):
+#     return "yes" if num % 2 == 0 else "no"
 
-x=check_even(7) 
-print(x)
+# x=check_even(7) 
+# print(x)
