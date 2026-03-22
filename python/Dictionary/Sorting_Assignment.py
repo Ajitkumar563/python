@@ -23,7 +23,10 @@
 #     count += len(value)
     
 # print("Number of items in dictionary",count)    
+
     
-    
+# Q3. Write a Python program to print a dictionary line by line.    
+
+
 
  
