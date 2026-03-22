@@ -56,4 +56,7 @@
 # Q6 Write a Python program to find the maximum and minimum value in a dictionary.
 
 d = {"a": 10, "b": 5, "c": 20}
+
+print("Maximum value :", max(d.values()))
+print("Minimum value :", min(d.values()))
  
