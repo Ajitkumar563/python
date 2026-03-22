@@ -27,6 +27,9 @@
     
 # Q3. Write a Python program to print a dictionary line by line.    
 
-
+d = {
+    "Sam": {"m1": 89, "m2": 56, "m3": 89},
+    "Suresh": {"m1": 49, "m2": 96, "m3": 89}
+}
 
  
