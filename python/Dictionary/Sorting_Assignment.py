@@ -61,4 +61,7 @@
 # print("Minimum value :", min(d.values()))
 
 # Q7 Create a Python program to find the difference between two dictionaries.
+
+d1 = {"a": 1, "b": 2, "c": 3}
+d2 = {"b": 2, "c": 4, "d": 5}
  
