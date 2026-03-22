@@ -82,3 +82,8 @@
 
 # reverse_dict = {value: key for key, value in d.items()}
 # print(reverse_dict)
+
+
+
+#9 Write a program in Python to calculate the average score of each student across multiple subjects 
+# stored in a dictionary of dictionaries.
