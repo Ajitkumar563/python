@@ -80,4 +80,5 @@
 
 d = {"a": 1, "b": 2, "c": 3}
 
-reverse_dict 
+reverse_dict = {value: key for key, value in d.items()}
+print(reverse_dict)
