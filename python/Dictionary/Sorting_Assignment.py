@@ -19,7 +19,7 @@ d = {
 }  
 
 count = 0
-for value in d.value():
+for value in d.values():
     count += len(value)
     
 print("Number of items in dictionary",count)    
