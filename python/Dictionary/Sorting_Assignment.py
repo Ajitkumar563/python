@@ -8,6 +8,7 @@
 
 # desc = dict(sorted(d.items(), key=lambda x: x[1], reverse=True))
 # print(desc)
+
  
 # Q2. Write a Python program to count number of items in a dictionary value that is a list.
 
@@ -16,4 +17,13 @@ d = {
     "m2": [89, 67, 84],
     "m3": [82, 57]
 }  
+
+count = 0
+for value in d.value():
+    count += len(value)
+    
+print("Number of items in dictionary",count)    
+    
+    
+
  
