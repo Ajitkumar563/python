@@ -39,10 +39,10 @@
         
 # Q4 Write a Python program to convert two lists into a dictionary.
 
-keys = ["One", "Two", "Three", "Four", "Five"]
-values = [1, 2, 3, 4, 5]        
+# keys = ["One", "Two", "Three", "Four", "Five"]
+# values = [1, 2, 3, 4, 5]        
 
-d = dict(zip(keys, values))
-print(d)        
+# d = dict(zip(keys, values))
+# print(d)        
 
  
