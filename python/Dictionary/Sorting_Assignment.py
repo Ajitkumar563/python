@@ -62,6 +62,15 @@
 
 # Q7 Create a Python program to find the difference between two dictionaries.
 
-d1 = {"a": 1, "b": 2, "c": 3}
-d2 = {"b": 2, "c": 4, "d": 5}
+# d1 = {"a": 1, "b": 2, "c": 3}
+# d2 = {"b": 2, "c": 4, "d": 5}
+
+# one_first = d1.keys() - d2.keys()
+# only_second = d2.keys() - d1.keys()
+# both_keys = d1.keys() & d2.keys()
+
+
+# print("key present in the first dictionary", list(one_first))
+# print("key present in the second dictionary",list(only_second))
+# print("keys present in the both dictionary",list(both_keys))
  
