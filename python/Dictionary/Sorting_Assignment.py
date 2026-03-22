@@ -106,6 +106,6 @@
 
 # 10. Write a Python program to sort a dictionary by its keys in ascending order.
 
-d = {"b": 2, "a": 1, "c": 3}
-sorted_dict = dict(sorted(d.items()))
-print(sorted_dict)
+# d = {"b": 2, "a": 1, "c": 3}
+# sorted_dict = dict(sorted(d.items()))
+# print(sorted_dict)
