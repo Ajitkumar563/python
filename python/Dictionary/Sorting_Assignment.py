@@ -51,5 +51,5 @@ def sort_dict_by_values(d):
     return dict(sorted(d.items(), keys=lambda x:x[1]))
 
 d = {"a": 3, "b": 1, "c": 2}
-print(sort_dict_by_values)
+print(sort_dict_by_values(d))
  
