@@ -109,3 +109,9 @@
 # d = {"b": 2, "a": 1, "c": 3}
 # sorted_dict = dict(sorted(d.items()))
 # print(sorted_dict)
+
+# 11. Write a Python program to sort a dictionary by the length of its keys.
+
+d = d = {"apple": 2, "banana": 3, "pear": 4, "orange": 5}
+sorted_dict = dict(sorted(d.items(),key =lambda x: len(x[0])))
+print(sorted_dict)
