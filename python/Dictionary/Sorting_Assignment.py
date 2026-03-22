@@ -73,4 +73,7 @@
 # print("key present in the first dictionary", list(one_first))
 # print("key present in the second dictionary",list(only_second))
 # print("keys present in the both dictionary",list(both_keys))
- 
+
+
+# Q8 Create a Python function to reverse a dictionary
+# (swap keys and values). Make sure the values are different.  
