@@ -54,4 +54,6 @@
 # print(sort_dict_by_values(d))
 
 # Q6 Write a Python program to find the maximum and minimum value in a dictionary.
+
+d = {"a": 10, "b": 5, "c": 20}
  
