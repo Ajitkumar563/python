@@ -12,17 +12,17 @@
  
 # Q2. Write a Python program to count number of items in a dictionary value that is a list.
 
-d = {
-    "m1": [67, 79, 90, 73, 36],
-    "m2": [89, 67, 84],
-    "m3": [82, 57]
-}  
+# d = {
+#     "m1": [67, 79, 90, 73, 36],
+#     "m2": [89, 67, 84],
+#     "m3": [82, 57]
+# }  
 
-count = 0
-for value in d.values():
-    count += len(value)
+# count = 0
+# for value in d.values():
+#     count += len(value)
     
-print("Number of items in dictionary",count)    
+# print("Number of items in dictionary",count)    
     
     
 
