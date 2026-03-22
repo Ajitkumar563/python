@@ -38,7 +38,9 @@ for k, v in d.items():
         print(v)
         
 # Q4 Write a Python program to convert two lists into a dictionary.
-        
+
+keys = ["One", "Two", "Three", "Four", "Five"]
+values = [1, 2, 3, 4, 5]        
         
 
  
