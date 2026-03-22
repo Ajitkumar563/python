@@ -93,12 +93,19 @@
 #Q9 Write a program in Python to calculate the average score of each student across multiple subjects 
 # stored in a dictionary of dictionaries.
 
-student_score = {
-    "John": {"Math": 85, "Science": 90, "English": 80},
-    "Alice": {"Math": 75, "Science": 88, "English": 92},
-    "Bob": {"Math": 90, "Science": 85, "English": 78}
-}
+# student_score = {
+#     "John": {"Math": 85, "Science": 90, "English": 80},
+#     "Alice": {"Math": 75, "Science": 88, "English": 92},
+#     "Bob": {"Math": 90, "Science": 85, "English": 78}
+# }
 
-for student, subjects in student_score.items():
-    average = sum(subjects.values())/len(subjects)
-    print(student, ":", average)
+# for student, subjects in student_score.items():
+#     average = sum(subjects.values())/len(subjects)
+#     print(student, ":", average)
+
+
+# 10. Write a Python program to sort a dictionary by its keys in ascending order.
+
+d = {"b": 2, "a": 1, "c": 3}
+sorted_dict = dict(sorted(d.items()))
+print(sorted_dict)
