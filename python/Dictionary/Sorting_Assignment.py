@@ -93,7 +93,7 @@
 #Q9 Write a program in Python to calculate the average score of each student across multiple subjects 
 # stored in a dictionary of dictionaries.
 
-tudent_score = {
+student_score = {
     "John": {"Math": 85, "Science": 90, "English": 80},
     "Alice": {"Math": 75, "Science": 88, "English": 92},
     "Bob": {"Math": 90, "Science": 85, "English": 78}
