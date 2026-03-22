@@ -45,6 +45,8 @@
 # d = dict(zip(keys, values))
 # print(d)        
 
+
+
 # Q5  Create a Python function to sort a dictionary by its values and return that new dictionary.
 
 # def sort_dict_by_values(d):
@@ -53,12 +55,15 @@
 # d = {"a": 3, "b": 1, "c": 2}
 # print(sort_dict_by_values(d))
 
+
+
 # Q6 Write a Python program to find the maximum and minimum value in a dictionary.
 
 # d = {"a": 10, "b": 5, "c": 20}
 
 # print("Maximum value :", max(d.values()))
 # print("Minimum value :", min(d.values()))
+
 
 # Q7 Create a Python program to find the difference between two dictionaries.
 
@@ -75,15 +80,21 @@
 # print("keys present in the both dictionary",list(both_keys))
 
 
+
 # Q8 Create a Python function to reverse a dictionary
 # (swap keys and values). Make sure the values are different.  
 
 # d = {"a": 1, "b": 2, "c": 3}
-
 # reverse_dict = {value: key for key, value in d.items()}
 # print(reverse_dict)
 
 
 
-#9 Write a program in Python to calculate the average score of each student across multiple subjects 
+#Q9 Write a program in Python to calculate the average score of each student across multiple subjects 
 # stored in a dictionary of dictionaries.
+
+student_scores = {
+    "John": {"Math": 85, "Science": 90, "English": 80},
+    "Alice": {"Math": 75, "Science": 88, "English": 92},
+    "Bob": {"Math": 90, "Science": 85, "English": 78}
+}
