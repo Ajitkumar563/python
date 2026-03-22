@@ -45,5 +45,10 @@
 # d = dict(zip(keys, values))
 # print(d)        
 
-# Q5 
+# Q5  Create a Python function to sort a dictionary by its values and return that new dictionary.
+
+def sort_dict_by_values(d):
+    return dict(sorted(d.items(), keys=lambda x:x[1]))
+
+d = {"a": 3, "b": 1, "c": 2}
  
