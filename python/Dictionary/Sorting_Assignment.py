@@ -32,4 +32,7 @@ d = {
     "Suresh": {"m1": 49, "m2": 96, "m3": 89}
 }
 
+for k, v in d.items():
+    print(k)
+
  
