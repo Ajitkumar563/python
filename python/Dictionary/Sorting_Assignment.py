@@ -78,7 +78,7 @@
 # Q8 Create a Python function to reverse a dictionary
 # (swap keys and values). Make sure the values are different.  
 
-d = {"a": 1, "b": 2, "c": 3}
+# d = {"a": 1, "b": 2, "c": 3}
 
-reverse_dict = {value: key for key, value in d.items()}
-print(reverse_dict)
+# reverse_dict = {value: key for key, value in d.items()}
+# print(reverse_dict)
