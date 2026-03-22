@@ -37,5 +37,8 @@ for k, v in d.items():
     for subject, v in v.items():
         print(v)
         
+# Q4 Write a Python program to convert two lists into a dictionary.
+        
+        
 
  
